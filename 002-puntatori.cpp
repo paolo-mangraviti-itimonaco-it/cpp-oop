@@ -3,19 +3,6 @@
 
 using namespace std;
 
-// Metodo 'incrementa' con il legame per riferimento (o referenza) tra parametro formale e parametro attuale 
-// parametri formali: intero,intero
-void incrementa(int &v,int passo)
-{
-    v += passo;
-}
-
-// parametri formali: puntatore a intero,int
-void incrementa(int* v,int passo)
-{
-    cout << "funzione 2" << endl;
-    *v += passo;
-}
 
 int main()
 {
