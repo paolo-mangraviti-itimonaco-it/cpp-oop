@@ -19,6 +19,8 @@ void incrementa(int* v,int passo)
 
 int main()
 {
+    int a = 15;
+    int* pa = &a;
     cout << "Esempi puntatori";
     cout << endl << endl << endl;
 
