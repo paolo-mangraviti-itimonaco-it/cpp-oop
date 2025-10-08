@@ -8,7 +8,8 @@ int main()
 {
     cout << "Esempi puntatori";
     cout << endl << endl << endl;
-
+    int a = 15;
+    int* pa = &a;
     cout << "Puntatori di tipi strutturati";
     cout << endl << endl;
     int b[4] = {2,8,1,0};
