@@ -30,12 +30,6 @@ int main()
     cout << endl << endl;
     cout << "Valore della variabile 'a': " << a;
     cout << endl << endl;
-    incrementa(a,3);
-    cout << "Valore della variabile 'a': " << a;
-    cout << endl << endl;
-    incrementa(pb[0],5);
-    cout << "Valore della variabile 'pb[0]' e del valore puntato: " << pb[0] << ":" << *pb[0];
-    cout << endl << endl << endl << endl;
 
     return 0;
 }
